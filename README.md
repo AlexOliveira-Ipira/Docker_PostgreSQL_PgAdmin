@@ -4,7 +4,7 @@
      usuário do sistema operacional Windows devem instalar o docker desktope.
     -   Site para realizar o cadastro:
           https://hub.docker.com
-          <img src=/Users/alexoliveira/Postegre/Docker_PostgreSQL_PgAdmin/img/Site Docker.png>
+          <img src=./img/SiteDocker.png>
 
     -  Site para baixar o docker desktope:
           https://www.docker.com/products/docker-desktop
