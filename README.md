@@ -4,7 +4,12 @@
      usuário do sistema operacional Windows devem instalar o docker desktope.
     -   Site para realizar o cadastro:
           https://hub.docker.com
+<<<<<<< HEAD
           <img src=./img/SiteDocker.png>
+=======
+          
+          <img src=/img/Site Docker.png>
+>>>>>>> 02536268d57abab741b621c2a173262f68965f61
 
     -  Site para baixar o docker desktope:
           https://www.docker.com/products/docker-desktop
