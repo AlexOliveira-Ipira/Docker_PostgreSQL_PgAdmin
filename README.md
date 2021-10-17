@@ -61,12 +61,13 @@
 
         - Criação do container do PostgreSQL
         docker container run -d --name postgre --network NetPostgre -e POSTGRES_PASSWORD=defina_uma_senha 
-        -e POSTGRES_USER=defina_um_usuario -v Base_Postegre:/vol/postgresql/data postgres:latest
+        -e POSTGRES_USER=defina_um_usuario -v Base_Postegre:/vol/postgresql/data
+         postgres:latest
 
-        OBS.: Por se tratar de um estudo estou utilizando a ultima versão da imagem, indicada pelo 
-              versão "lateste" após o nome da imagem.
-              Caso não tenhs decidico trabalhar com volume a opção: 
-                -v Base_Postegre:/vol/postgresql/data deve ser retirada.
+        OBS.: Por se tratar de um estudo estou utilizando a ultima versão da imagem, 
+        indicada pelo versão "lateste" após o nome da imagem.
+        Caso não tenhs decidico trabalhar com volume a opção: 
+            -v Base_Postegre:/vol/postgresql/data deve ser retirada.
 
 <img src=./img/DockerContainerPostegre.png>
 
@@ -91,8 +92,8 @@
         
 <img src=./img/LoginPgAdmin.png>
 
-    <h2>Dashboard PgAdmin rodando no Container</h2>
+<h2>Dashboard PgAdmin rodando no Container</h2>
 <img src=./img/DashboardPgAdmin.png>
 
-    <h2>Criando tabela no PgAdmin</h2>
+<h2>Criando tabela no PgAdmin</h2>
 <img src=./img/DeskbordPgAdimiQuery.png>
