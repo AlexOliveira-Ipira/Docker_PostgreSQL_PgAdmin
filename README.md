@@ -20,7 +20,7 @@
     -   Para o PostgreSQL foi utilizado a imagem oficial que esta no repositório:
             https://hub.docker.com/_/postgres?tab=description
             
-            <img src=./img/Postegres.png>
+        <img src=./img/Postegres.png>
 
         -   Para o Gerenciador do banco foi utilizado a imagem do PgAdmini que esta no repositório:
             https://hub.docker.com/r/fenglc/pgadmin4
@@ -31,15 +31,15 @@
 
     - Criando a NetWork
 
-    - Criar a rede para interligar os dois serviços, devido ao docker trabalhar com cada container 
-        de forma individual, se faz necessário a criração de uma rede para a comunicação interna 
-        entre os dois servições.
+    - Criar a rede para interligar os dois serviços, devido ao docker trabalhar com cada 
+    container de forma individual, se faz necessário a criração de uma rede para a 
+    comunicação interna entre os dois servições.
 
     - Comando:
        
        docker network create NetPostgre 
 
-       <img src=./img/Criandorede.png>
+<img src=./img/Criandorede.png>
        
     
 <h2> Terceiro passo: </h2>
@@ -53,7 +53,7 @@
     - Comando:    
         docker volume create Base_Postegre
 
-        <img src=./img/CriandoVolume.png>
+<img src=./img/CriandoVolume.png>
 
 <h2> Quarto Passo: </h2>
 
@@ -68,13 +68,13 @@
               Caso não tenhs decidico trabalhar com volume a opção: 
                 -v Base_Postegre:/vol/postgresql/data deve ser retirada.
 
-           <img src=./img/DockerContainerPostegre.png>
+<img src=./img/DockerContainerPostegre.png>
 
 
         - Criação do container do PgAdmin
         docker container run -d --network NetPostgre -p 5050:5050 fenglc/pgadmin4:latest
 
-            <img src=./img/DockerPgAdmin.png>
+<img src=./img/DockerPgAdmin.png>
 
 <h2> Rodando o serviço: </h2>
 
@@ -89,10 +89,10 @@
             OBS.: Após acsso pode ser criado um usuário , sendo que esse usário so terá 
             os seus dados guardadso se for utilziado um volume.
         
-        <img src=./img/LoginPgAdmin.png>
+<img src=./img/LoginPgAdmin.png>
 
     <h2>Dashboard PgAdmin rodando no Container</h2>
-    <img src=./img/DashboardPgAdmin.png>
+<img src=./img/DashboardPgAdmin.png>
 
     <h2>Criando tabela no PgAdmin</h2>
-    <img src=./img/DeskbordPgAdimiQuery.png>
+<img src=./img/DeskbordPgAdimiQuery.png>
