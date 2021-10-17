@@ -60,7 +60,8 @@
     - Criar os containeres:
 
         - Criação do container do PostgreSQL
-        docker container run -d --name postgre --network NetPostgre -e POSTGRES_PASSWORD=defina_uma_senha 
+        docker container run -d --name postgre --network NetPostgre 
+        -e POSTGRES_PASSWORD=defina_uma_senha 
         -e POSTGRES_USER=defina_um_usuario -v Base_Postegre:/vol/postgresql/data
          postgres:latest
 
