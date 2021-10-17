@@ -3,26 +3,26 @@
 - Para seguir esse tutoria se faz necessário realizar o cadastro no sie do docker,
      usuário do sistema operacional Windows devem instalar o docker desktope.
     -   Site para realizar o cadastro:
-          https://hub.docker.com
-<<<<<<< HEAD
-          <img src=./img/SiteDocker.png>
-=======
-          
-          <img src=/img/Site Docker.png>
->>>>>>> 02536268d57abab741b621c2a173262f68965f61
+          https://hub.docker
 
+          <img src=./img/SiteDocker.png>
+          
     -  Site para baixar o docker desktope:
           https://www.docker.com/products/docker-desktop
+
+          <img src=./img/DockerDescktop.png>
 
 
 <h2> Primeiro passo: </h2>
 
-    - Definir as imagens para serem utilizadas no projeto.
+-   Definir as imagens para serem utilizadas no projeto.
 
-        Para o PostgreSQL foi utilizado a imagem oficial que esta no repositório:
+    -   Para o PostgreSQL foi utilizado a imagem oficial que esta no repositório:
             https://hub.docker.com/_/postgres?tab=description
+            
+            <img src=./img/Postegres.png>
 
-         Para o Gerenciador do banco foi utilizado a imagem do PgAdmini que esta no repositório:
+        -   Para o Gerenciador do banco foi utilizado a imagem do PgAdmini que esta no repositório:
             https://hub.docker.com/r/fenglc/pgadmin4
 
 <h2> Segundo passo: </h2>
