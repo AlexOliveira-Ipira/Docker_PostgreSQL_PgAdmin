@@ -71,7 +71,7 @@
         Caso não tenhs decidico trabalhar com volume a opção: 
             -v Base_Postegre:/vol/postgresql/data deve ser retirada.
 
-<img src=./img/DockerContainerPostegre.png>
+<img src=./img/DockerContainerPostgres.png>
 
 
         - Criação do container do PgAdmin
