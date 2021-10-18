@@ -77,7 +77,7 @@
         - Criação do container do PgAdmin
         docker container run -d --network NetPostgre -p 5050:5050 fenglc/pgadmin4:latest
 
-<img src=./img/DockerPgAdmin.png>
+<img src=./img/DockerContainerPgAdmin.png>
 
 <h2> Rodando o serviço: </h2>
 
